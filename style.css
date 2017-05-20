@@ -1,0 +1,253 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image:url(vintage_speckles.png); 
+   
+}
+#cont{
+    width:100%;
+    height: 100%;
+ 
+	background:transparent url(pattern.png) repeat top left;
+    
+    z-index: -100;
+   
+       
+}
+#wrapper{
+    width:1280px;
+    height: 100%;
+    margin-right: auto;
+    margin-left: auto;
+     
+	
+	
+    opacity: 0.96;
+}
+#rectangular{
+    width: 1280px;
+    height: 150px;
+   
+}
+.squere{
+    height: 700px;
+    width: 640px;
+    float:left;
+}
+.footer{
+    height: 50px;
+    width: 1240px;
+    background-color:#191717;
+    padding: 20px;
+    text-align: center;
+    color: aliceblue;
+}
+#brand{
+    height: 100px;
+    width: 590px;
+    padding: 25px;
+    background-color:#191717;
+    float:left;
+    text-align: center;
+    color: white;
+     opacity: 0.85;
+    
+}
+#clock{
+    height: 100px;
+    width: 590px;
+    padding: 25px;
+    background-color:firebrick;
+    float:left;
+    text-align: center;
+    color: white;
+     opacity: 0.85;
+}
+.tile{
+    width: 180px;
+    height: 100px;
+    padding: 60px;
+    float:left;
+    margin: 15px 0px 0px 15px;
+    background-color: #64f0f0;
+    opacity: 0.65;
+}
+.tile:hover{
+    -webkit-box-shadow: 6px 6px 12px -1px rgba(0,0,0,0.59);
+-moz-box-shadow: 6px 6px 12px -1px rgba(0,0,0,0.59);
+box-shadow: 6px 6px 12px -1px rgba(0,0,0,0.59);
+    opacity: 0.99;
+    cursor: pointer;
+    
+    
+}
+
+#tile2{
+    width: 555px;
+    height: 140px;
+    padding: 30px;
+    margin: 15px 0 15px 15px;
+   
+    text-align: center;
+    opacity: 0.75;
+    
+}
+
+#tile3{
+   width: 555px;
+    margin: 15px 15px 15px 10px;
+    height: 395px;
+    padding: 30px;
+ background-color: #e0e0e0;
+    opacity 0.99;
+    
+    
+    
+    
+    text-align: justify;
+}
+.tile4f{
+    margin: 0 15px 15px 10px;
+    width: 35px;
+    padding: 50px;
+    float:left;
+    height: 100px;
+    background-color: #1a45a0;
+      opacity: 0.85;
+    
+}
+.tile4t{
+    margin: 0 15px 15px 10px;
+    width: 35px;
+    padding: 50px;
+    float:left;
+    height: 100px;
+    background-color: #1DA1F2;
+     opacity: 0.85;
+}
+.tile4g{
+    margin: 0 15px 15px 10px;
+    width: 35px;
+    padding: 50px;
+    float:left;
+    height: 100px;
+    background-color: #c11b18;
+     opacity: 0.85;
+}
+.tile4y{
+    margin: 0 15px 15px 10px;
+    width: 35px;
+    padding: 50px;
+    float:left;
+    height: 100px;
+    background-color: #e22c29;
+     opacity: 0.85;
+}
+
+.tile4f:hover{
+    -webkit-box-shadow: 6px 6px 12px -1px rgba(0,0,0,0.59);
+-moz-box-shadow: 6px 6px 12px -1px rgba(0,0,0,0.59);
+box-shadow: 6px 6px 12px -1px rgba(0,0,0,0.59);
+   opacity: 0.99;
+    cursor: pointer;
+}
+
+.tile4t:hover{
+    -webkit-box-shadow: 6px 6px 12px -1px rgba(0,0,0,0.59);
+-moz-box-shadow: 6px 6px 12px -1px rgba(0,0,0,0.59);
+box-shadow: 6px 6px 12px -1px rgba(0,0,0,0.59);
+     opacity:0.99; 
+    cursor: pointer;
+}
+
+.tile4y:hover{
+    -webkit-box-shadow: 6px 6px 12px -1px rgba(0,0,0,0.59);
+-moz-box-shadow: 6px 6px 12px -1px rgba(0,0,0,0.59);
+box-shadow: 6px 6px 12px -1px rgba(0,0,0,0.59);
+     opacity:0.99; 
+    cursor: pointer;
+}
+
+.tile4g:hover{
+    -webkit-box-shadow: 6px 6px 12px -1px rgba(0,0,0,0.59);
+-moz-box-shadow: 6px 6px 12px -1px rgba(0,0,0,0.59);
+box-shadow: 6px 6px 12px -1px rgba(0,0,0,0.59);
+     opacity:0.99; 
+    cursor: pointer;
+}
+
+
+
+.fa-cogs:before {
+  content: "\f085";
+    font-size: 100px;
+    color:firebrick;
+    padding-left: 20px;
+   
+}
+.fa-tasks:before{
+    font-size: 100px;
+    color:firebrick;
+    padding-left: 40px;
+        
+}
+.fa-university:before{
+  
+   font-size: 100px;
+    color: firebrick;
+    padding-left: 40px; 
+    
+}
+.fa-keyboard-o:before{
+    font-size: 100px;
+    color: firebrick;
+    padding-left: 40px;
+}
+.fa-youtube:before{
+    font-size: 50px;
+    color:white;
+    
+}
+.fa-twitter:before{
+    font-size: 50px;
+    color:white;
+    
+}
+.fa-google-plus:before{
+    font-size: 50px;
+    color:white;
+    
+}
+.fa-facebook-square:before{
+    font-size: 50px;
+    color:white;
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
